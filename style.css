@@ -10,12 +10,43 @@ h1{
     font-family: "Oswald", sans-serif;
     font-style: italic;
     text-decoration: underline;
-
     border: 20px solid black;
     border-radius: 20px;
     border-style: double;
     padding: 10px;
     margin: 2px;
+}
 
-    
+/* .box1{
+    color: brown;
+    height: 100px;
+    width: 100px;
+}
+
+.box2{
+    color: chartreuse;
+    width: 200px;
+    height: 200px;
+} */
+ 
+h3{
+    background-color: rgb(9, 125, 87);
+    color: black
+}
+h3:hover{
+    background-color: aqua;
+    color: brown;
+    text-align: center;
+}
+h3:active{
+    background-color: blue;
+    color: chartreuse;
+    text-align: right;
+} 
+#textinput:focus{
+    border: 5px solid red;
+}
+h3::selection{
+    background-color: blueviolet;
+    color: azure;
 }
