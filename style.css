@@ -9,4 +9,13 @@ h1{
 
     font-family: "Oswald", sans-serif;
     font-style: italic;
+    text-decoration: underline;
+
+    border: 20px solid black;
+    border-radius: 20px;
+    border-style: double;
+    padding: 10px;
+    margin: 2px;
+
+    
 }
